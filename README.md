@@ -7,19 +7,24 @@
 
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.1%20dcker_sql.png)
 
-1.2. Создайте учётную запись sys_temp. 
+1.2. Создайте учётную запись sys_temp.
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.2%20создание%20пользователя.png)
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.3%20все%20пользователи.png)
 
 1.4. Дайте все права для пользователя sys_temp. 
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.4%20добавление%20прав%20пользователю.png)
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.5%20права%20пользователя.png)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.6%20смена%20пользователя.png)
 
 Для смены типа аутентификации с sha2 используйте запрос: 
@@ -27,12 +32,15 @@
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.7%20восстановление%20из%20дампа.png)
 
 1.7. Восстановите дамп в базу данных.
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.7%20все%20базы.png)
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
+
 ![](https://github.com/Romera14/hw_mysql_12-02/blob/main/1.8%20все%20таблицы%20базы.png)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
